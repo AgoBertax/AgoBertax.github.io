@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,body{height:100%}
+body{font-family: 'Poppins', sans-serif;}
+.main-title{text-align: center;text-shadow: 2px 2px rgb(184, 181, 181); transform: rotate(5deg);}
+.card{text-align: center;}
