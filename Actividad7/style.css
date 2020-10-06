@@ -1,0 +1,65 @@
+html,body{height:100%}
+:root{
+  --cText:#111111;
+  --cText1:#444444;
+  --cText2:#555555;
+  --cText3:#777777; 
+  --clink: #3369ff;
+  --cBG0:#fafafa;
+}
+body{
+  font-family: Helvetica;
+  color: var(--cText);
+  background-color:var(--cBG0);
+  margin: 2em 5em
+  }
+body.dark{
+  --cText:#eeeeee;
+  --cText1:#cccccc;
+  --cText2:#bbbbbb;
+  --cText3:#999999; 
+  --clink: #6d94fd;
+  --cBG0:#333333;
+}
+  h1{
+    text-align: center;
+    font-size: 3em;
+  }
+  header .tagline{
+    text-align: center;
+    color: var(--cText2);
+    font-style: italic;
+  }
+  nav>ul, footer{
+    list-style-type: none;
+    text-align: center;
+  }
+  nav>ul>li, footer>ul>li{
+    display: inline-block;
+    margin-right: 1em;
+  }
+  nav>ul a, footer>ul a{
+    text-decoration: none;
+    color:var(--clink);
+  }
+  nav>ul a:visited, footer>ul a:visited{
+    color:var(--clink);
+  }
+  nav>ul a:hover, footer>ul a:hover{
+    text-decoration: underline;
+  }
+  article p{
+    color: var(--cText1);
+    text-align: justify;
+  }
+  .post-info .author{
+    font-weight: bold;
+  }
+  .post-info .date-created{
+    float: right;
+    font-size: 0.9em;
+    color: var(--cText3);
+  }
+article{
+  margin:4em 0
+}
